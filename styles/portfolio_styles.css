@@ -1,0 +1,241 @@
+#background-image {
+	background-repeat: repeat; 	
+}
+
+.container {
+	justify-content: center;
+}
+
+ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-family: 'mrs-eaves-roman-all-petite-c', 'sans-serif';
+	font-size: 22px;
+}
+
+ul .rectangle.normal_1 {
+	text-align: center; 
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+ul .rectangle.normal_2 {
+	text-align: center; 
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.navigation a:hover{
+	color: green;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	font-family: 'mrs-eaves-roman-all-petite-c', 'sans-serif';
+	font-size: 22px;
+}
+
+.navigation li a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 18px 55px;
+}
+
+.header {
+	text-align: center; 
+	margin-top: -10px;
+	margin-bottom:-15px;
+
+}
+
+.bar {
+	padding-bottom: 2%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: -30px;
+	border-bottom-style: solid;
+}
+
+.pictures {
+	text-align: center;
+	margin-right: auto;
+  	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.text1 {
+	font-family: 'Courier', slabserif;
+	text-align: left;
+}
+
+.text2 {
+	font-family: 'Courier', slabserif;
+	text-align: left;
+	margin: 20%, 20%, 20%, 0;
+	width: 490px;
+}
+
+.text3 {
+	font-family: 'Courier', slabserif;
+	text-align: left;
+}
+
+.rectangle.normal{
+	text-align: center;
+}
+
+#main-content .wrapper {
+font-size: .875em;
+padding-bottom: 30px;
+padding-top: 25px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+
+#site-header #main-nav .toggle {
+display: none;
+}
+
+.info-form {
+	position: relative;
+}
+.info-form:before, 
+.info-form:after { 
+	content: " "; display: table; 
+}
+
+.info-form:after { 
+	clear: both; 
+}
+
+.info-column {
+	width: 33%;
+	padding: 10px 30px;
+	float: left;
+}
+
+.info-form label {
+	display: block;
+	padding: 15px 5px 5px 2px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.info-form input,
+.info-form textarea,
+.info-form select {
+	display: flex;
+	justify-content: center;
+	border: 3px solid  #84868b;
+	font-family: 'mrs-eaves-roman-all-petite-c', 'sans-serif';
+	line-height: 1.5;
+	font-size: 1em;
+	padding: 5px 10px;
+	color: black;
+	display: block;
+	width: 100%;
+	background: transparent;
+}
+
+.info-form textarea {
+	min-height: 200px;
+}
+
+.info-form input:focus,
+.info-form textarea:focus,
+.info-form label:active + input,
+.info-form label:active + textarea {
+	outline: none;
+	border: 3px solid gray;
+}
+
+.info-form select:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder { 
+    color: green;
+    font-style: italic;
+}
+
+:-moz-placeholder { 
+    color: gray;
+    font-style: italic;
+}
+
+::-moz-placeholder { 
+    color: gray;
+    font-style: italic;
+}
+
+:-ms-input-placeholder { 
+    color: gray;
+    font-style: italic;
+}
+
+.info-submit-wrap {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.info-form input.info-submit {
+	text-align: left;
+	background: #10689a;
+	border: none;
+	color: #fff;
+	width: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 1.1em;
+	border-radius: 2px;
+	letter-spacing: 1px;
+}
+
+.info-form input.info-submit:hover {
+	text-align: left;
+	background: #1478b1;
+}
+
+@media screen and (max-width: 70em) {
+	.info-column {
+		width: 50%;
+	}
+	.info-column:nth-child(3) {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.info-column {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+div.wrappergroup{
+	text-align: center;
+	padding-top: 15px;
+}
+
+footer p{
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #fff;
+	padding-bottom: 70px;
+	clear:both;
+}
